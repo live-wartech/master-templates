@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link
+      rel="stylesheet"
+      href="icons/fontawesome-free-6.2.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.svg" type="image/x-icon" />
+  </head>
+
+  <body id="top">
+    <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="index.html"
+          >Heker <mark class="px-2">Humoris.</mark></a
+        >
+      </div>
+      <nav class="header-nav-wrap">
+        <ul class="header-nav">
+          <li class="current">
+            <a class="smoothscroll" href="#home" title="home">Home</a>
+          </li>
+          <li>
+            <a class="smoothscroll" href="#about" title="about">About Me</a>
+          </li>
+          <li>
+            <a class="smoothscroll" href="#experience" title="experience"
+              >Experience</a
+            >
+          </li>
+          <li><a class="smoothscroll" href="#talks" title="talks">Talks</a></li>
+          <li>
+            <a class="smoothscroll" href="#writeup" title="writeup">Write Up</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+    </header>
+
+    <section
+      id="home"
+      class="s-home page-hero target-section"
+      data-parallax="scroll"
+      data-image-src="images/bg-hero.jpg"
+      data-natural-width="3000"
+      data-natural-height="2000"
+      data-position-y="center"
+    >
+      <div class="overlay"></div>
+      <div class="shadow-overlay"></div>
+
+      <div class="home-content">
+        <div class="row home-content__main">
+          <h3>Welcome Dude!</h3>
+
+          <h1>
+            I am Rona Febriana.
+            <br />
+            I am a
+            <span class="ityped" id="my-role"></span>
+          </h1>
+
+          <div class="home-content__buttons">
+            <a href="#about" class="smoothscroll btn btn--stroke">
+              More About Me
+            </a>
+          </div>
+
+          <div class="home-content__scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+              <span>Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <ul class="home-social">
+        <li>
+          <a href="#"
+            ><i class="fa-brands fa-lg fa-instagram" aria-hidden="true"></i
+            ><span>Instagram</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-brands fa-lg fa-github" aria-hidden="true"></i
+            ><span>Github</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-brands fa-lg fa-linkedin-in" aria-hidden="true"></i
+            ><span>Linkedin</span></a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+      <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+          <h1 class="title-bab">More About Me</h1>
+          <aside class="pull-quote text-justify">
+            <blockquote>
+              <p class="lead">
+                Hello dude, I'm Rona Febriana a.k.a
+                <strong>Heker Humoris</strong>. I'm a penetration tester,
+                cybersecurity engineer, and coding enthusiast. Educated at
+                <span class="highlight-text">SekolahHacker</span>. Received
+                several awards from
+                <span class="highlight-text">institutions</span> and
+                <span class="highlight-text">big company</span>. Become a
+                speaker about hacking. Someone who is thirsty for knowledge and
+                doesn't want to stop learning.
+              </p>
+            </blockquote>
+          </aside>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 80px">
+        <div class="col-six tab-full">
+          <h1 class="title-bab">
+            Bagaimana Cara Saya Bisa Menjadi
+            <span class="highlight-text">Best Student</span> Sekolah Hacker?
+          </h1>
+          <p>
+            <a href="https://www.linkedin.com/in/rona-febriana/"
+              ><img
+                width="120"
+                height="120"
+                class="pull-left img-thumb"
+                alt="Rona"
+                src="images/rona.jpg"
+            /></a>
+            Mendapat gelar siswa terbaik di
+            <a href="https://www.sekolahhacker.com/">Sekolah Hacker</a> menjadi
+            kebanggaan untuk saya sendiri. Namun perlu teman-teman ketahui bahwa
+            di luar sana <span class="highlight-text">Skill</span> dan
+            <span class="highlight-text">Attitude</span> menjadi hal yang paling
+            utama dibandingkan gelar 'Siswa Terbaik' ini. Tetapi tak ada
+            salahnya juga jika teman-teman mempunyai beberapa
+            <span class="highlight-text">Achievements</span> yang bisa menjadi
+            nilai lebih di mata HR atau Recruitment ketika melamar pekerjaan
+            nantinya.
+          </p>
+
+          <p>
+            <strong
+              >So, bagaimana cara saya bisa menjadi Best Student di Sekolah
+              Hacker?</strong
+            >
+            Ini yang saya lakukan berdasarkan
+            <strong>pengalaman pribadi saya</strong> mengikuti pembelajaran di
+            Sekolah Hacker.
+            <i class="fa-solid fa-arrow-right-long ms-2 text-danger"></i>
+          </p>
+        </div>
+
+        <div class="col-six tab-full">
+          <p>
+            <img
+              width="300"
+              class="pull-left img-viewer"
+              alt="Rona"
+              src="images/achievements/best.jpg"
+            />
+            Selama proses pembelajaran di Sekolah Hacker, teman-teman akan
+            menghadapi beberapa project (ujian) yaitu Small Project, Mini
+            Project, dan terakhir Big Project. Dimana pada setiap ujian
+            tersebut, teman-teman diharuskan mempresentasikan tugas yang sudah
+            dikerjakan kepada mentor, dan nantinya mentor akan memberi
+            penilaian. Untuk menjadi
+            <span class="highlight-text">Best Student</span> sederhananya
+            teman-teman cukup menjadi siswa dengan nilai tertinggi dibanding
+            siswa lain, cukup itu saja. Namun, bagaimana cara untuk mendapatkan
+            nilai yang tinggi selama pembelajaran? itu yang akan menjadi
+            tantangan teman-teman semua.
+          </p>
+
+          <p>
+            Inilah beberapa tips dari saya yang mungkin bisa teman-teman lakukan
+            juga.
+          </p>
+          <a href="" class="btn btn--primary"
+            >Baca Selengkapnya <i class="fa-solid fa-arrow-right-long ms-2"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="row section-intro company-bounty">
+        <div class="col-twelve">
+          <h1 class="title-bab">
+            Thank You for the <span class="highlight-text">Bounty</span>
+          </h1>
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-6 col-lg-2 col-sm-6 py-4">
+              <img
+                class="company-logo"
+                id="companyLogo1"
+                src="images/Logos/vidio.png"
+                alt="Bounty from vidio.com"
+              />
+            </div>
+            <div class="col-6 col-lg-2 col-sm-6 py-4">
+              <img
+                class="company-logo"
+                id="companyLogo2"
+                src="images/Logos/dicoding.png"
+                alt="Bounty from dicoding"
+              />
+            </div>
+            <div class="col-6 col-lg-2 col-sm-6 py-4">
+              <img
+                class="company-logo"
+                id="companyLogo3"
+                src="images/Logos/bwa.svg"
+                alt="Bounty from bwa"
+              />
+            </div>
+            <div class="col-6 col-lg-2 col-sm-6 py-4">
+              <img
+                class="company-logo"
+                id="companyLogo4"
+                src="images/Logos/karawang.png"
+                alt="Bounty from karawang"
+              />
+            </div>
+            <div class="col-6 col-lg-2 col-sm-6 py-4">
+              <img
+                class="company-logo"
+                id="companyLogo5"
+                src="images/Logos/kominfo.png"
+                alt="Bounty from karawang"
+              />
+            </div>
+            <div class="col-6 col-lg-2 col-sm-6 py-4">
+              <img
+                class="company-logo"
+                id="companyLogo6"
+                src="images/Logos/unsika.png"
+                alt="Bounty from unsika"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section
+        id="experience"
+        class="target-section row about-content about-content--timeline"
+      >
+        <div class="col-full text-center">
+          <h1 class="title-bab">Experience</h1>
+        </div>
+
+        <div class="col-six tab-full left">
+          <div class="timeline">
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">Oct 2020 - Oct 2021</p>
+                <h3>Backend Developer</h3>
+                <h5>Student Executive Board</h5>
+                <img
+                  src="images/Logos/bem.png"
+                  alt="BEM Logo"
+                  width="90"
+                  class="py-3"
+                />
+              </div>
+              <div class="timeline__desc">
+                Make a website BEM Faculty of Computer Science Singaperbangsa
+                Univesity using framework Laravel 8. And my responsibilities
+                include:
+                <ul>
+                  <li>Make logic function using PHP</li>
+                  <li>Apply secure coding</li>
+                  <li>Maintenance website</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">Feb 2021 - Aug 2022</p>
+                <h3>Fullstack Web Developer</h3>
+                <h5>University of Singaperbangsa Karawang</h5>
+                <img
+                  src="images/Logos/unsika.png"
+                  alt="Agate Logo"
+                  width="90"
+                  class="py-3"
+                />
+              </div>
+              <div class="timeline__desc">
+                Create and design a web using framework Codeigniter 3 that is
+                used by all lecturers to apply for promotions, SINTA
+                synchronization, and several other features. My responsibilities
+                include:
+                <ul>
+                  <li>Designing a web interface with adobe XD</li>
+                  <li>Slicing from adobe XD design to coding</li>
+                  <li>Creating some features in the website</li>
+                  <li>Maintenance website from security issue</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">Aug 2021 - Jan 2022</p>
+                <h3>Quality Assurance</h3>
+                <h5>Agate Internasional</h5>
+                <img
+                  src="images/Logos/agate.png"
+                  alt="Agate Logo"
+                  width="90"
+                  class="py-3"
+                />
+              </div>
+              <div class="timeline__desc">
+                I’m join a internship Agate Internasional from Kampus Merdeka
+                program. Ensure that the product meets the client's
+                requirements. In addition I am responsible for:
+                <ul>
+                  <li>Make and run test plan, test scenario, and test case</li>
+                  <li>Penetration testing avarik game</li>
+                  <li>
+                    Run smoke test, regression test, unit test, integration
+                    test, and usability test
+                  </li>
+                  <li>Make a bug report</li>
+                  <li>Collaborate with co-workers</li>
+                </ul>
+              </div>
+            </div>
+            <!-- end timeline__block -->
+          </div>
+          <!-- end timeline -->
+        </div>
+        <!-- end left -->
+
+        <div class="col-six tab-full right">
+          <div class="timeline">
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">Feb 2022 - Aug 2022</p>
+                <h3>Security Engineer</h3>
+                <h5>Sekolah Hacker</h5>
+                <img
+                  src="images/Logos/sekolahhacker.png"
+                  alt="SekolahHacker Logo"
+                  width="90"
+                  class="py-3"
+                />
+              </div>
+              <div class="timeline__desc">
+                Learn the fundamentals of hacking, web penetration, mobile
+                penetration, network penetration, write vulnerability reports
+                properly and correctly. Guided by mentors who have years of
+                experience in their field.
+                <ul>
+                  <li>OSINT</li>
+                  <li>Information Gathering</li>
+                  <li>Exploit</li>
+                  <li>Report Writing</li>
+                  <li>Network Security</li>
+                  <li>Cybersecurity</li>
+                  <li>Penetration Testing</li>
+                  <li>Vulnerability Assessment</li>
+                </ul>
+              </div>
+            </div>
+            <!-- end timeline__block -->
+
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">Aug 2022 - Present</p>
+                <h3>Cybersecurity Engineer (Red Team)</h3>
+                <h5>Jubelio (PT Guardia Teknologi Indonesia)</h5>
+                <img
+                  src="images/Logos/jubelio.png"
+                  alt="Jubelio Logo"
+                  width="120"
+                  class="py-3"
+                />
+              </div>
+              <div class="timeline__desc">
+                Doing security testing (penetration testing) to all assets
+                Jubelio. Role & Responsibility:
+                <ul>
+                  <li>Cyber Security Engineer / Penetration Tester</li>
+                  <li>
+                    Conduct Penetration Testing: Web, API, Network/Host, Mobile
+                  </li>
+                  <li>Conduct Vulnerability Assessment: Network/Host</li>
+                  <li>Dynamic and Static Application Security Testing</li>
+                  <li>Make Vulnerability Report include Proof of Concept</li>
+                  <li>Security Awareness to all departements Jubelio</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline__block">
+              <div class="timeline__bullet"></div>
+              <div class="timeline__header">
+                <p class="timeline__timeframe">2020 - Present</p>
+                <h3>Bug Bounty Hunter</h3>
+                <h5>Freelancer</h5>
+                <img
+                  src="images/Logos/bughunter.jpg"
+                  alt="Jubelio Logo"
+                  width="120"
+                  class="py-3"
+                />
+              </div>
+              <div class="timeline__desc">
+                Often participates in bug bounty programs at several big
+                companies / insitutions.
+                <ul>
+                  <li>vidio.com</li>
+                  <li>Karawang Goverment</li>
+                  <li>dicoding.com</li>
+                  <li>buildwithangga.com</li>
+                  <li>etc..</li>
+                </ul>
+              </div>
+            </div>
+            <!-- end timeline__block -->
+          </div>
+          <!-- end timeline -->
+        </div>
+        <!-- end right -->
+      </section>
+      <!-- end about-content timeline -->
+    </section>
+    <!-- end about -->
+
+    <section id="talks" class="s-achievement target-section">
+      <div class="row">
+        <div class="col-full">
+          <h1 class="title-bab text-center">Talks & Publications</h1>
+        </div>
+      </div>
+
+      <div class="row testimonials">
+        <div class="col-full testimonials__slider">
+          <div class="testimonials__slide">
+            <a
+              href="https://www.jawapos.com/features/20/09/2022/hacker-baik-dan-prospek-di-dunia-keamanan-siber/"
+            >
+              <img
+                src="images/talks/whitehat.jpg"
+                alt="”Hacker Baik” dan Prospek di Dunia Keamanan Siber"
+                class="img-viewer image-writeup mx-auto"
+                style="height: 19em"
+              />
+            </a>
+            <div class="testimonials__author">
+              <a
+                target="_blank"
+                class="title-talks"
+                href="https://www.jawapos.com/features/20/09/2022/hacker-baik-dan-prospek-di-dunia-keamanan-siber/"
+              >
+                ”Hacker Baik” dan Prospek di Dunia Keamanan Siber
+              </a>
+              <span>JAWAPOS</span>
+            </div>
+          </div>
+
+          <div class="testimonials__slide">
+            <iframe
+              class="img-viewer image-writeup mx-auto"
+              style="height: 18.8em; width: 80%"
+              src="https://www.youtube.com/embed/1kwCwcEXxHo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="testimonials__author">
+              <a
+                target="_blank"
+                class="title-talks"
+                href="https://youtu.be/1kwCwcEXxHo"
+              >
+                Ulik Cara Hacker Retas Akun Sosial Media
+              </a>
+              <span>INFORMATIKA UNSIKA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="writeup" class="s-blog target-section">
+      <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full">
+          <h1>Achievements & Write Up</h1>
+        </div>
+      </div>
+
+      <div class="row blog-content">
+        <div class="col-full">
+          <div class="blog-list block-1-2 block-tab-full">
+            <article class="col-block">
+              <div class="blog-date">Aug 15, 2022</div>
+              <h2 class="h01">
+                <a href="nda.html"
+                  >$319 How I'm Exploiting HTML Injection to Phishing Attack?</a
+                >
+              </h2>
+              <img
+                src="images/achievements/dicoding.jpg"
+                alt="dicoding Indonesia"
+                class="img-viewer mt-3 mb-4"
+                style="width: 100%"
+              />
+            </article>
+            <article class="col-block">
+              <div class="blog-date">
+                <a href="#">Jul 22, 2022</a>
+              </div>
+
+              <h2 class="h01">
+                <a
+                  href="https://si.unsika.ac.id/ulik-cara-hacker-retas-akun-sosial-media/"
+                  >Exploiting Cross Site Scripting (XSS) to Deface!</a
+                >
+              </h2>
+              <img
+                src="images/achievements/bwa.jpg"
+                alt="BWA Indonesia"
+                class="img-viewer mt-3 mb-4"
+                style="width: 100%"
+              />
+            </article>
+          </div>
+          <!-- end blog-list -->
+        </div>
+        <!-- end col-full -->
+      </div>
+      <!-- end blog-content -->
+    </section>
+    <!-- end s-blog -->
+
+    <!-- end photoSwipe background -->
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="https://unpkg.com/ityped@0.0.10"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
